@@ -55,4 +55,7 @@ Específicos
 knitr::include_graphics("img/cuadro_1.png")
 ```
 
+```{r}
+
+```
 
