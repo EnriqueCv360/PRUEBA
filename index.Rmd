@@ -26,6 +26,17 @@ csl: https://www.zotero.org/styles/iica-catie
 # browseURL("https://retorque.re/zotero-better-bibtex/")
 ---
 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.align = "center",
+	echo = FALSE, message = FALSE, warning = FALSE)
+options(digits = 4, OutDec= ".",
+        knitr.kable.NA = '',
+        knitr.table.format = "pandoc", 
+        citr.use_betterbiblatex = FALSE)
+
+```
+
 # Resumen del proyecto{-}
 
 Los estudios de la dinámica de poblaciones de bivalvos necesitan un conocimiento del crecimiento y de la edad de los organismos dentro de la población (Ramón y Richardson,1992; citados en Jacabo 2018) por eso es importante la determinación de la edad de la Argopectun purpuratus. Para este propósito se utilizará la periodicidad en la formación de los microincrementos en las valvas como base. El experimento tratará de igualar su estado natural y por eso se cultivará a una densidad de 36 ejemplares/m² con tamaños aproximadamente de 60 mm (Fiestas et al., 2009).
